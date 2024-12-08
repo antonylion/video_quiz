@@ -104,13 +104,6 @@ async function createSession() {
     }
 }
 
-// Call the function immediately when the script runs
-//(async () => {
-//    // Invoke the createSession function
-//    session = await createSession();
-    //console.log('Session:', session);
-//})();
-
 // Define the function that will prompt the session and handle your logic
 async function runSessionPrompt() {
     try {

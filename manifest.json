@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Video quiz",
+  "description": "Base Extension that asks questions on the video in the page",
+  "version": "1.0",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsHMspXhUIA14Yq6lRpRI6nrBNGZwh0CDUFCig0UJSNgSGkVqIEmwDGn+MpY4Y8c8BqUuZSku1v4u/PnROlZhk/Ucj89lMTahyyFOVL4KXxBTqyifIGW9B8TN0vRXrvExTxibc+yh07bUTrKF7I92zHiDuDrTxgkPNl0T+hcK6nnWbVDa+881mqaC7w230DZshPx+5QwQd011R4OQQQFgZySKD9VmTECQiSWYhXiOCwyzh5WN8VPqLJmRBp2LWo/9TV3NkUrEw+1hJ66lGfBO4nOCxR0nE3zyy5tF1Zs2Bfn8SIcmFiPOm/dYyXdnORLZ6vWDfkc012E73vVnA/iGlwIDAQAB",
+  "permissions": ["aiLanguageModelOriginTrial"],
+  "host_permissions": ["https://www.youtube.com/*"],
+  "trial_tokens": ["AuhOHViRO6bZFbC9Rz7wSLz8EmT0Pt6+0AkKjWdMRUNheQ25QY8rTYbrcWrcoMGBFAvVT3il3IjPM3BDVypTVAwAAAB4eyJvcmlnaW4iOiJjaHJvbWUtZXh0ZW5zaW9uOi8vZXBwZmVmZ2tucG5pYW9mZ2ZsYmZoZWlrbGNpZmNsbGgiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElGb3JFeHRlbnNpb24iLCJleHBpcnkiOjE3NjA0ODYzOTl9"],
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "action": {
+    "default_popup": "quiz.html",
+    "default_icon": {
+      "16": "images/icon-16.png",
+      "32": "images/icon-32.png",
+      "48": "images/icon-48.png",
+      "128": "images/icon-128.png"
+    }
+  }
+}
